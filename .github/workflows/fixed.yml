@@ -1,10 +1,10 @@
 name: Fix me
 
-on:push
+on: push
 
 jobs:
   test:
-    runs-on:ubuntu-latest
+    runs-on: ubuntu-latest
     steps:
       - name: Print
-      run: echo "I fixed it"
+        run: echo "I fixed it"
